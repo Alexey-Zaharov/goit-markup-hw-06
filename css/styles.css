@@ -588,6 +588,11 @@ ul {
   fill: var(--accent-color);
 }
 
+.input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
 .feedback-thumb {
   margin-bottom: 20px;
   cursor: pointer;
