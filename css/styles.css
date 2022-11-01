@@ -645,8 +645,9 @@ ul {
 }
 
 .checkwindow:checked + .checked-icon {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   border-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .checkwindow:focus + .checked-icon {
